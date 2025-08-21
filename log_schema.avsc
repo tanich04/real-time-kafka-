@@ -1,0 +1,10 @@
+{
+  "type": "record",
+  "name": "UserLog",
+  "fields": [
+    {"name": "timestamp", "type": "long"},
+    {"name": "user_id", "type": "int"},
+    {"name": "action", "type": "string"},
+    {"name": "value", "type": ["null", "double"], "default": null}
+  ]
+}

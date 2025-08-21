@@ -1,0 +1,6 @@
+confluent-kafka[avro]
+pandas==2.0.3
+psycopg2-binary==2.9.9
+urllib3
+orjson
+avro
